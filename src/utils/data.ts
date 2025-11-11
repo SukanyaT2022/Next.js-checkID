@@ -1,5 +1,4 @@
-import { MdOutlineBeachAccess } from "react-icons/md";
-import { MdOutlinePool } from "react-icons/md";
+
 
 export const data =
 [
@@ -116,62 +115,62 @@ export const data =
   export const iconData = [
     {
       "id": 1,
-      "icon":  MdOutlineBeachAccess,
+  
       "label": "Beachfront"
     },
     {
       "id": 2,
-      "icon": MdOutlinePool,
+
       "label": "Pool"
     },
     {
       "id": 3,
-      "icon": MdOutlinePool,
+
       "label": "Family"
     },
     {
       "id": 4,
-      "icon": MdOutlineBeachAccess,
+
       "label": "Beachfront"
     },
     {
       "id": 5,
-      "icon": MdOutlineBeachAccess,
+
       "label": "Mountain "
     },
     {
       "id": 6,
-      "icon": MdOutlineBeachAccess,
+
       "label": "City"
     },
     {
       "id": 7,
-      "icon": MdOutlineBeachAccess,
+    
       "label": "Beachfront"
     },
     {
       "id": 8,
-      "icon": MdOutlineBeachAccess,
+     
       "label": "Mountain"
     },
     {
       "id": 9,
-      "icon": MdOutlineBeachAccess,
+     
       "label": "City "
     },
     {
       "id": 10,
-      "icon": MdOutlineBeachAccess,
+   
       "label": "Beachfront"
     },
     {
       "id": 11,
-      "icon": MdOutlineBeachAccess,
+     
       "label": "Mountain"
     },
     {
       "id": 12,
-      "icon": MdOutlineBeachAccess,
+   
       "label": "City"
     },
   ]
