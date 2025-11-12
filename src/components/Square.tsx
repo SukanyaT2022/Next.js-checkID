@@ -19,22 +19,23 @@ const Square = ({
   idProp,
 }: SquareProps) => {
   return (
-    <div className="border-2 border-amber-500 w-[300px] h-[300px]">
+    // mainbox
+    <div className="border-2 border-amber-500 w-[300px] h-[340px]">
       {/* <Image src={imageProp || "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"} width={300} height={200} alt='house image'/> */}
-      <div className="bg-red-400 flex-1">
+      {/* imaage div */}
+      <div  className=" bg-blue-300 h-[30%]">
         {imageProp ? (
           <img
             src={imageProp}
-    
-            className="object-cover"
+            className="w-full h-full object-cover"
             alt="house image"
           />
         ) : (
           <p>No image</p>
         )}
       </div>
-
-      <div className="flex-1  bg-green-300">
+{/* text div */}
+      <div className=" bg-green-300 h-[70%]">
       <div>id: {idProp || "N/A"}</div>
         <div>Price: {priceProp || "N/A"}</div>
         <div>Type: {typeProp || "N/A"}</div>
