@@ -1,3 +1,4 @@
+'use client';
 import Square from "@/src/components/Square";
 import React from "react";
 import {data} from '../../src/utils/data';
@@ -5,7 +6,7 @@ import {data} from '../../src/utils/data';
 import Link from "next/link";
 
 import { useRouter } from "next/navigation";
-'use client';
+
 
 // import {useRouter} from "n";
 const Welcome = () => {
